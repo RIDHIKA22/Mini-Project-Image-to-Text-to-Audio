@@ -46,5 +46,5 @@ The script uses the pytesseract library to extract text from an image:
 ### Text to Speech Conversion
 The script uses the gtts library to convert the extracted text to speech and save it as an MP3 file:
 
->tts = gtts.gTTS(result)
+>tts = gtts.gTTS(result) <br/>
 tts.save("output_audio.mp3")
