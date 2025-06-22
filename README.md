@@ -34,4 +34,12 @@ Modify the script to include the path to your image file. Example:
 
 5. #### Listen to the Audio
 
-The extracted text will be saved as an audio file named  <(output_audio.mp3).
+The extracted text will be saved as an audio file named <output_audio.mp3.
+
+# Script Explanation
+
+### Text Extraction
+The script uses the pytesseract library to extract text from an image:
+
+>result = pytesseract.image_to_string(img)
+
