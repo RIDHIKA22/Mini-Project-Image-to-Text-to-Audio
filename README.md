@@ -2,7 +2,7 @@
 
 This Python script allows you to convert text from an image to an audio file. The script uses the **pytesseract** library to extract text from the image and the gtts library to convert the extracted text to speech.
 
-# Requirements
+## Requirements
 
 * Python 3.x
 * pytesseract library
@@ -16,7 +16,7 @@ Use the package manager to install Tesseract.
 
 >sudo apt-get install tesseract-ocr
 
-# Usage
+## Usage
 
 1. #### Clone the Repository
 
@@ -36,10 +36,15 @@ Modify the script to include the path to your image file. Example:
 
 The extracted text will be saved as an audio file named <output_audio.mp3.
 
-# Script Explanation
+## Script Explanation
 
 ### Text Extraction
 The script uses the pytesseract library to extract text from an image:
 
 >result = pytesseract.image_to_string(img)
 
+### Text to Speech Conversion
+The script uses the gtts library to convert the extracted text to speech and save it as an MP3 file:
+
+>tts = gtts.gTTS(result)
+tts.save("output_audio.mp3")
