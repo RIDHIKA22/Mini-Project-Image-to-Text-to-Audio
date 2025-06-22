@@ -14,4 +14,24 @@ You also need to install Tesseract-OCR. Instructions for different operating sys
 
 Use the package manager to install Tesseract.
 
->[sudo apt-get install tesseract-ocr]
+>sudo apt-get install tesseract-ocr
+
+# Usage
+
+1. ### Clone the Repository
+
+2. ### Prepare an Image
+
+   Place the image file you want to process in the same directory as the script.
+
+3. ### Set the path
+
+Modify the script to include the path to your image file. Example:
+
+4. ### Execute the Script
+
+ >python image_to_audio.py
+
+5. ### Listen to the Audio
+
+The extracted text will be saved as an audio file named >output_audio.mp3.
