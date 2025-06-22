@@ -4,8 +4,8 @@ This Python script allows you to convert text from an image to an audio file. Th
 
 # Requirements
 
-Python 3.x
-pytesseract library
-Pillow library
-gtts library
-Tesseract-OCR
+* Python 3.x
+* pytesseract library
+* Pillow library
+* gtts library
+* Tesseract-OCR
