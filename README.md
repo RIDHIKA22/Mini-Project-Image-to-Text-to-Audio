@@ -14,4 +14,4 @@ You also need to install Tesseract-OCR. Instructions for different operating sys
 
 Use the package manager to install Tesseract.
 
-\\\sudo apt-get install tesseract-ocr\\\
+>sudo apt-get install tesseract-ocr
