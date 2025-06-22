@@ -13,4 +13,5 @@ This Python script allows you to convert text from an image to an audio file. Th
 You also need to install Tesseract-OCR. Instructions for different operating systems are as follows:
 
 Use the package manager to install Tesseract.
-(sudo apt-get install tesseract-ocr)
+
+\\\sudo apt-get install tesseract-ocr
